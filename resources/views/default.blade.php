@@ -3,13 +3,10 @@
   <head>
     <title>@yield('title','nice')</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="javascript" href="../js/home.js">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="/">Something Good</a>
-      </div>
-    </nav>
+    @include('_header')
     <div class="container">
     @yield('content')
     </div>

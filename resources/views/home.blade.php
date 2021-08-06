@@ -3,5 +3,5 @@
 @section('title','home')
     
 @section('content')
-  <h1>主页</h1>
+  <h1>{{ $files }}</h1>
 @stop
