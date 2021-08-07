@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'StaticPagesController@home');
+Route::get('/{img}', 'StaticPagesController@img');

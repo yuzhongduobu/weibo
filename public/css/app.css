@@ -10020,3 +10020,13 @@ nav.navbar.navbar-expand-lg {
   font-size: 23px;
   color: #bbbbbb;
 }
+
+.container {
+  width: 98vw;
+  margin: auto;
+}
+
+.img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
